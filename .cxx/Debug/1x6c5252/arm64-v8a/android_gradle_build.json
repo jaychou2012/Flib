@@ -1,0 +1,43 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "D:\\ITCode\\Android\\FMOD\\Flib\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\IDE\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\ITCode\\Android\\FMOD\\Flib\\.cxx\\Debug\\1x6c5252\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\IDE\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\ITCode\\Android\\FMOD\\Flib\\.cxx\\Debug\\1x6c5252\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "flib-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "D:\\IDE\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\ITCode\\Android\\FMOD\\Flib\\.cxx\\Debug\\1x6c5252\\arm64-v8a",
+        "flib"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "flib",
+      "output": "D:\\ITCode\\Android\\FMOD\\Flib\\build\\intermediates\\cxx\\Debug\\1x6c5252\\obj\\arm64-v8a\\libflib.so",
+      "runtimeFiles": [
+        "D:\\ITCode\\Android\\FMOD\\Flib\\src\\main\\cpp\\arm64-v8a\\libfmod.so",
+        "D:\\ITCode\\Android\\FMOD\\Flib\\src\\main\\cpp\\arm64-v8a\\libfmodL.so"
+      ]
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

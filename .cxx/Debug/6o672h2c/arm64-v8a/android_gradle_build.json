@@ -1,0 +1,43 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "D:\\ITCode\\Android\\FMOD\\Flib\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\IDE\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\ITCode\\Android\\FMOD\\Flib\\.cxx\\Debug\\6o672h2c\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\IDE\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\ITCode\\Android\\FMOD\\Flib\\.cxx\\Debug\\6o672h2c\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "FmodSound-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "D:\\IDE\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\ITCode\\Android\\FMOD\\Flib\\.cxx\\Debug\\6o672h2c\\arm64-v8a",
+        "FmodSound"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "FmodSound",
+      "output": "D:\\ITCode\\Android\\FMOD\\Flib\\build\\intermediates\\cxx\\Debug\\6o672h2c\\obj\\arm64-v8a\\libFmodSound.so",
+      "runtimeFiles": [
+        "D:\\ITCode\\Android\\FMOD\\Flib\\libs\\arm64-v8a\\libfmod.so",
+        "D:\\ITCode\\Android\\FMOD\\Flib\\libs\\arm64-v8a\\libfmodL.so"
+      ]
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

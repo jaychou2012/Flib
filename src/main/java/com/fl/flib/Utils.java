@@ -30,7 +30,7 @@ public class Utils {
 
     public static native int saveSound(String path, int type, String savePath);
 
-    public void saveSoundAsync(String path, int type, String savePath, ISaveSoundListener listener) {
+    public static void saveSoundAsync(String path, int type, String savePath, ISaveSoundListener listener) {
         try {
             if (isPlaying()) {
                 stopPlay();
