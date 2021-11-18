@@ -1,0 +1,23 @@
+                    Executable : D:\IDE\AndroidSDK\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HD:\ITCode\Android\FMOD\Flib
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=armeabi-v7a
+-DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a
+-DANDROID_NDK=D:\IDE\AndroidSDK\ndk\21.4.7075529
+-DCMAKE_ANDROID_NDK=D:\IDE\AndroidSDK\ndk\21.4.7075529
+-DCMAKE_TOOLCHAIN_FILE=D:\IDE\AndroidSDK\ndk\21.4.7075529\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\IDE\AndroidSDK\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\ITCode\Android\FMOD\Flib\build\intermediates\cxx\Debug\6o672h2c\obj\armeabi-v7a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=D:\ITCode\Android\FMOD\Flib\build\intermediates\cxx\Debug\6o672h2c\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-BD:\ITCode\Android\FMOD\Flib\.cxx\Debug\6o672h2c\armeabi-v7a
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

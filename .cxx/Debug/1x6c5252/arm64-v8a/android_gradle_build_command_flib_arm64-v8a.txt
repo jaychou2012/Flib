@@ -1,0 +1,7 @@
+Executable : D:\IDE\AndroidSDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\ITCode\Android\FMOD\Flib\.cxx\Debug\1x6c5252\arm64-v8a
+flib
+jvmArgs : 
+

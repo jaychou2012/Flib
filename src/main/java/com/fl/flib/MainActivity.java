@@ -17,7 +17,6 @@ import java.io.IOException;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
-    private Utils utils;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +27,6 @@ public class MainActivity extends AppCompatActivity {
 
         FMOD.init(this);
 
-        utils = new Utils();
-
         // Example of a call to a native method
         TextView tv = binding.sampleText;
         tv.setText("fdslfjdal");
@@ -39,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        utils.saveSoundAsync(Environment.getExternalStorageDirectory().getPath() + "/1.wav", Utils.MODE_UNCLE,
+                        Utils.saveSoundAsync(Environment.getExternalStorageDirectory().getPath() + "/1.wav", Utils.MODE_UNCLE,
                                 Environment.getExternalStorageDirectory().getPath() + "/3.wav", new Utils.ISaveSoundListener() {
                                     @Override
                                     public void onFinish(String path, String savePath, int type) {

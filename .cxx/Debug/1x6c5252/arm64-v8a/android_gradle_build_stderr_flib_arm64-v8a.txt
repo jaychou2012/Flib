@@ -1,0 +1,1 @@
+ninja: error: 'D:/ITCode/Android/FMOD/Flib/src/main/cpp/arm64-v8a/libfmod.so', needed by 'D:/ITCode/Android/FMOD/Flib/build/intermediates/cxx/Debug/1x6c5252/obj/arm64-v8a/libflib.so', missing and no known rule to make it
